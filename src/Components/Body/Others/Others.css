@@ -1,0 +1,50 @@
+.others-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.others{
+    display: flex;
+    width: 100%;
+    padding: 0 10rem;
+    align-items: center;
+    gap: 6rem;
+}
+.info{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info p{
+    width: 40%;
+}
+@media screen and (max-width: 950px) {
+    .others-container{
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .others{
+        padding: 0;
+        width: 90%;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .others img{
+        width: 90%;
+    }
+    .info h1{
+        font-size: large;
+    }
+    .info{
+        width: 80%;
+    }
+    .info p{
+        width: 100%;
+        text-align: justify;
+    }
+    
+}
