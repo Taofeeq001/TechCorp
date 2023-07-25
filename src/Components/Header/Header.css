@@ -26,9 +26,11 @@
 .menu a{
     text-decoration: none;
     color: white;
-    font-weight: bold;
     font-size: larger;
+    font-weight: bold;
 }
+
+
 .menu button{
     padding: 10px 19px;
     background-color: green;

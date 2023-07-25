@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import './Header.css'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { FiX } from "react-icons/fi";
-import logo from '../Images/one.jpg'
 
 
 const Header = ()=>{
@@ -12,10 +11,10 @@ const Header = ()=>{
             <div className="destop-nav">
                 <h1>TechCorp</h1>
                 <div className="menu">
-                    <a href="">Home</a>
-                    <a href="">About Us</a>
-                    <a href="">Latest Gadgets</a>
-                    <a href="">Our Service</a>
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Latest Gadgets</a>
+                    <a href="#">Our Service</a>
                     <div className="nav-log">
                         <button><a style={{color:'white', fontWeight:'bold'}} href="/signin">Login</a></button>
                     </div>
@@ -25,11 +24,11 @@ const Header = ()=>{
                 </button>
             </div>
             <div className={toggle? "mobile-sub":"mobile-menu"}>
-                <a href="">Home</a>
-                <a href="">About Us</a>
-                <a href="">Latest Gadgets</a>
-                <a href="">Our Services</a>
-                <a href="/signin">Login</a>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Latest Gadgets</a>
+                <a href="#">Our Services</a>
+                <a href="#">Login</a>
             </div>
         </nav>
     )
