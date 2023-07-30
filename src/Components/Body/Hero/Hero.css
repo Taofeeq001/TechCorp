@@ -15,6 +15,7 @@
 .hero h1{
     font-size: 50px;
     color: green;
+    text-shadow: 5px 0px 3px white;
 }
 .hero p{
     width: 40%;
