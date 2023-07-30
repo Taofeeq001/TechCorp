@@ -1,7 +1,7 @@
 import React from "react";
 import './Testimony.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Scrollbar, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -13,11 +13,11 @@ const Testimony = ()=>{
         <div className="head">
             <h1>Testimonies </h1>
             <Swiper 
-                modules={[Navigation, Scrollbar]}
+                modules={[ Scrollbar,Autoplay]}
                 spaceBetween={30}
                 slidesPerView={3}
                 grabCursor={true}
-                Navigation
+                // Navigation
                 scrollbar={{draggable: false}}
                 autoplay={{autoplay:true}}
                 onSlideChange={()=> console.log('slide change')}
