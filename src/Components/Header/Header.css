@@ -29,6 +29,11 @@
     font-size: larger;
     font-weight: bold;
 }
+.menu a:hover{
+    color: green;
+    text-shadow: 1px 1px 3px white;
+    transition: 1s ease;
+}
 
 
 .menu button{
